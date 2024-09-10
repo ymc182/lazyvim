@@ -1,4 +1,8 @@
 return {
+  "neovim/nvim-lspconfig",
+  opts = {
+    inlay_hints = { enabled = true },
+  },
   "DaikyXendo/nvim-material-icon",
   {
     "supermaven-inc/supermaven-nvim",
